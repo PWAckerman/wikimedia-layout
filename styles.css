@@ -1,1 +1,58 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
 
+/*body * {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(147, 147, 147);
+}*/
+
+a{
+  text-decoration: none;
+}
+
+.row {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+.wiki {
+  width: 135px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.newcontainer{
+  width: 100%;
+  max-width: 900px;
+  text-align: right;
+  display:inline-block;
+}
+
+.text {
+  text-align: left;
+  margin: 20px;
+}
+
+.text2 {
+  text-align: right;
+  margin: 20px;
+}
+
+.text3 {
+  /*margin: auto 0;*/
+  width: 70%;
+  font-size: 13px;
+  display: inline-block;
+  /*text-align: center;*/
+}
+
+.top-border {
+    border-top: black solid 1px;
+}
